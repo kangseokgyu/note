@@ -47,3 +47,20 @@ Max Date Rate는 채널폭, GI, Spatial Streams와 MCS Index를 통해 결정한
  - Short GI를 지원하는가?
  - 지원하는 NSS(Number of Spatial Streams)는 얼마인가?
  - 지원하는 MCS(Modulation and Coding Scheme)는 얼마인가?
+
+# VHT Capabilities
+
+- Tag Number : 191
+- Tag Length : 12
+
+## VHT Capabilities Info
+
+| Maximum MPDU Length | Support Channel Width Set | Rx LDPC | Short GI for 80 MHz / TVHT_MODE_4C | Short GI for 160 and 80+80 MHz | Tx STBC | Rx STBC | SU Beamformer Capable | SU Beamformee Capable | Beamformee STS Capability | Number of Sounding Dimensions | MU Beamformer Capable | MU Beamformee Capable | TXOP PS | +HTC-VHT Capable | Maximum A-MPDU Length Exponent | VHT Link Adaptation Capable | Rx Antenna Pattern Consistency | Tx Antenna Pattern Consistency | Extened NSS BW Support |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|2|2|1|1|1|1|3|1|1|3|3|1|1|1|1|3|2|1|1|2|
+
+## Support VHT-MCS and NSS Set Field
+
+| Rx VHT-MCS Map | Rx Highest Supported Long GI Data Rate | Maximum NSTS,total | Tx VHT-MCS Map | Tx Highest Supported Long GI Data Rate | VHT ExtendedNSS BW Capable | Reserved |
+|--|--|--|--|--|--|--|
+|16|13|3|16|13|1|2|
