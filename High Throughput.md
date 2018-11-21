@@ -36,3 +36,11 @@
 | 29           | 4               | 64-QAM     | 2/3    | 208               | 231.1              | 432               | 480                |
 | 30           | 4               | 64-QAM     | 3/4    | 234               | 260                | 486               | 540                |
 | 31           | 4               | 64-QAM     | 5/6    | 260               | 288.9              | 540               | 600                |
+
+## Max Data rate
+
+최대 전송률은 다음을 고려하려 판단한다.
+
+- HT MCS Index : HT Capabilities -> Rx Supported Modulation and Coding Scheme -> Rx Modulation and Coding Scheme
+- Channel Width
+- Support Short GI
